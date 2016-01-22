@@ -9,6 +9,6 @@ describe ('game', function() {
     expect(game(5)).to.eql([1, 2, "ping", 4, "pong"]);
   })
   it('numbers that are divisible by 15 will be replaced with "pingpong"', function(){
-    expect(game(15)).to.eql([1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, 12, "ping", 14, "pingpong"])
+    expect(game(15)).to.eql([1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping", 13 , 14, "pingpong"]);
   })
 })
