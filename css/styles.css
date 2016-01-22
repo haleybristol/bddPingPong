@@ -1,3 +1,13 @@
 #results {
   display: none;
 }
+
+.col-md-4 {
+  background-color: darkseagreen
+
+
+}
+
+.col-md-8 {
+  background-color: #ffcc99
+}
