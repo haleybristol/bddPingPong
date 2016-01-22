@@ -1,6 +1,6 @@
 # _Ping Pong_
 
-#### _This is an interactive webpage that asks the user to type in a number and then you play a game!, January 22, 2016_
+#### _This is an interactive webpage that asks the user to type in a number and then you play a game! January 22, 2016_
 
 #### By _**Haley Bristol**_
 
@@ -10,10 +10,10 @@ _This is an interactive webpage that allows a user to type in a number and the p
 
 ## Technologies Used
 
-_HTML, CSS, BootStrap, JavaScript, Jquery, Mocha, Chai_
+HTML, CSS, BootStrap, JavaScript, Jquery, Mocha, Chai
 
 ### License
 
 *Maybe be used under the MIT license*
 
-Copyright (c) 2016 **_Haley Bristol_**
+Copyright (c) 2016 **Haley Bristol**
