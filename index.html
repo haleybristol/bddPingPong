@@ -5,27 +5,35 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Pig Latin</title>
+    <title>PingPong</title>
   </head>
 
   <body>
     <div class="container">
+      <div class="jumbotron">
+        <h1>Ping Pong</h1>
+      </div>
+      <h3>How to Play:</h3>
+        <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 15 become "pingpong"</li>
+          </ol>
+
       <form>
         <div class="form-group">
-          <label for="countTo">Enter a number to count to:</label>
-          <input id="countTo" type="text">
-        </div>
-        <div class="form-group">
-          <label for="multiplyTo">Enter a number to multiple by:</label>
-          <input id="multiplyTo" type="text">
-        </div>
-        <button class="btn" type="submit">CountUpMuthafucka</button>
+          <label for="number">Enter a number to count to:</label>
+          <input id="number" type="text">
+
+        <button class="btn" type="submit">Ping Pong</button>
       </form>
 
-      <div id="result">
-        <p>Numbers yo: <span id="numbers"></span></p>
+      <div class="result">
+        <ul id="result">
+        </ul>
+      </div>
       </div>
     </div>
   </body>
-
 </html>
